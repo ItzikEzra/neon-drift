@@ -1,0 +1,10 @@
+# Godot 4 editor/cache + import artifacts (regenerated on open / --import)
+.godot/
+.import/
+
+# Export output
+build/
+
+# OS noise
+.DS_Store
+*.tmp

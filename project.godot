@@ -1,0 +1,28 @@
+; Engine configuration file.
+; Neon Drift — generated/maintained by hand; safe to edit.
+
+config_version=5
+
+[application]
+
+config/name="Neon Drift"
+config/description="A self-contained neon arena survival shooter. All art drawn in code."
+run/main_scene="res://main.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://icon.svg"
+boot_splash/show_image=false
+boot_splash/bg_color=Color(0.02, 0.02, 0.05, 1)
+
+[display]
+
+window/size/viewport_width=1152
+window/size/viewport_height=648
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.02, 0.02, 0.05, 1)
+textures/canvas_textures/default_texture_filter=1
